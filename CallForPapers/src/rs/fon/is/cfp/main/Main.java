@@ -17,7 +17,7 @@ import rs.fon.is.cfp.domain.Call;
 public class Main {
 
 	public static void main(String[] args) {
-//		
+		
 //		XMLParser parser = new XMLParser();
 //		
 //		List<Call> calls = parser.parseCalls(Constants.XMLFILE_PATH);
@@ -29,9 +29,9 @@ public class Main {
 //		}
 //		TDB.sync((DataModelManager.getInstance().getModel()));
 //		DataModelManager.getInstance().closeDataModel();
-	
+	//
 //		---------
-		
+	//	
 //		try {
 //			QueryService qs = new QueryService();
 //			//DataModelManager.getInstance();
