@@ -12,12 +12,12 @@ Radi kreiranja aplikacije, potrebno je bilo ispuniti sledeće zahteve:
 Podaci o pozivima za publikovanje radova izvorno su raspoloživi u XML formatu. Primer izgleda jednog takvog XML fajla dat je na slici 1.
 
 ![Slika 1 - Primer CfP XML elementa](/docs/images/CfP item example in XML.png)
--> Slika 1 - Primer CfP XML elementa <-
+Slika 1 - Primer CfP XML elementa
 
 Podatke u izvornom obliku potrebno je predstaviti, odnosno mapirati u odgovarajuće elemente RDF vokabulara Call Ontology. Grafički prikaz vokabulara kao i mapiranja između njega i podataka u izvornom obliku prikazani su na slici 2. Crvenom bojom su označeni atributi iz izvornog XML fajla, dok crvene strelice ukazuju na mapiranja.
 
 ![Slika 2 - Mapiranja izmedju CfP vokabulara i WikiCfP modela](/docs/images/CfP-model-mapping.jpg)
--> Slika 2 - Mapiranja izmedju CfP vokabulara i WikiCfP modela <-
+Slika 2 - Mapiranja izmedju CfP vokabulara i WikiCfP modela
 
 Klasa *Event* odnosi se na događaj (npr. konferenciju, kongres itd.) koji prati konkretan poziv za publikovanje radova. Poseduje atribute kao što su datum početka, datum završetka. naziv, opis, mesto održavanja, kao i referencu ka samom CfP-u. Ostali atributi nisu značajni sa aspekta ovog rada.
 Klasa *Place* opisuje lokaciju na kojoj se održava događaj i ima atribut ime.
